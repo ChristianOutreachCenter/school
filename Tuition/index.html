@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admissions</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!-- page styles -->
+    <link rel="stylesheet" type="text/css" href="../global-styles.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <a href="../index.html">
+          <img
+            id="navbar-image"
+            src="../images/maroonsheild-svg.svg"
+            alt="cos logo"
+          />
+        </a>
+        <h1>
+          <span class="full-text">Christian Outreach School</span>
+          <span class="short-text">C.O.S</span>
+        </h1>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Admissions/index.html">
+                Admissions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Tuition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Resources/index.html"> Resources </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Contact/index.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../About/index.html"> About Us </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <!-- Tuition Section Copied over from main site -->
+      <section>
+        <h1 id="tuitionAndFees">Tuition and Fees</h1>
+        <div class="section-body">
+          <p>Monthly tuition is based on 10 months, August to May.</p>
+          <!--- Bootstrap accordion -->
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <!-- /////PRE SCHOOL HALF DAY////-->
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                  >
+                    Pre-School - Half-Day
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseOne"
+                class="collapse"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p>Half-Day &nbsp; <strong>7:45 - 12:20</strong></p>
+                  <p>Age Requirement: Age 4 by July 31</p>
+                  <table class="table table-bordered table-sm">
+                    <thead>
+                      <tr>
+                        <th style="width: 20%"></th>
+                        <th style="width: 25%" scope="col">2 Days/week</th>
+                        <th scope="col">3 Days/week</th>
+                        <th scope="col">5 Days/week</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Tuition</th>
+                        <td>$90.00/month.</td>
+                        <td>$115.00/month</td>
+                        <td>$170.00/month</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Materials fee</th>
+                        <td>$120 ($145 if paid after May 15)</td>
+                        <td>$120 ($145 if paid after May 15)</td>
+                        <td>$120 ($145 if paid after May 15)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Registration Fee</th>
+                        <td colspan="3">
+                          $125.00 (per family). <br />
+                          Annual fee due with application. Non-refundable.
+                          <i>Early bird discount during certain times of year.</i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <i>
+                      Additional fees for special programs, materials or field
+                      trips may be collected.
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- /////PRE SCHOOL FULL DAY////-->
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                  >
+                    Pre-School - Full-Day
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p>Full-Day &nbsp; <strong>7:45am - 3:00pm</strong></p>
+                  <p>Age Requirement: Age 4 by July 31</p>
+                  <table class="table table-bordered table-sm">
+                    <thead>
+                      <tr>
+                        <th style="width: 20%"></th>
+                        <th style="width: 25%" scope="col">2 Days/week</th>
+                        <th scope="col">3 Days/week</th>
+                        <th scope="col">5 Days/week</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Tuition</th>
+                        <td>$130.00/month</td>
+                        <td>$180.00/month</td>
+                        <td>$260.00/month</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Materials fee</th>
+                        <td>$175.00 ($200 if paid after May 15)</td>
+                        <td>$175.00 ($200 if paid after May 15)</td>
+                        <td>$175.00 ($200 if paid after May 15)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Registration Fee</th>
+                        <td colspan="3">
+                          $125.00 (per family). <br />
+                          Annual fee due with application. Non-refundable.
+                          <i>Early bird discount during certain times of year.</i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <i>
+                      Additional fees for special programs, materials or field
+                      trips may be collected.
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--///// KINDERGARTEN HALF DAY/////-->
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                  >
+                    Kindergarten - Half Day
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p>Half-Day &nbsp; <strong>7:45 - 12:20</strong></p>
+                  <p>Age Requirement: Age 5 by July 31</p>
+                  <table class="table table-bordered table-sm">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Tuition</th>
+                        <td>$200.00/month.</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Materials fee</th>
+                        <td>$150.00 ($175 if paid after May 15)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Registration Fee</th>
+                        <td>
+                          $125.00 (per family). <br />
+                          Annual fee due with application. Non-refundable.
+                          <i>Early bird discount during certain times of year.</i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <i>
+                      Additional fees for special programs, materials or field
+                      trips may be collected. Materials fees are due by June 1st
+                      or upon acceptance. Some courses (such as drama, art,
+                      cooking) may require a special fee. Graduating seniors
+                      will be assessed a graduation fee
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--///// KINDERGARTEN Full Day /////-->
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseKindergartenFullDay"
+                  >
+                    Kindergarten - Full Day
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseKindergartenFullDay"
+                class="collapse"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <p>Full-Day &nbsp; <strong>7:45am - 3:00pm</strong></p>
+                  <p>Age Requirement: Age 5 by July 31</p>
+                  <table class="table table-bordered table-sm">
+                    <tbody>
+                      <tr>
+                        <th scope="row">Tuition</th>
+                        <td>$275.00/month</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Materials fee</th>
+                        <td>$200.00 ($225 if paid after May 15)</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">Registration Fee</th>
+                        <td>
+                          $125.00 (per family). <br />
+                          Annual fee due with application. Non-refundable.
+                          <i>Early bird discount during certain times of year.</i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>
+                    <i>
+                      Additional fees for special programs, materials or field
+                      trips may be collected. Materials fees are due by June 1st
+                      or upon acceptance. Some courses (such as drama, art,
+                      cooking) may require a special fee. Graduating seniors
+                      will be assessed a graduation fee
+                    </i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--///// ELEMENTARY /////-->
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                  >
+                    Elementary (Grades 1 - 6)
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <div>
+                    <table class="table table-bordered table-sm">
+                      <thead>
+                        <tr>
+                          <th style="width: 20%"></th>
+                          <th scope="col">Full-Day</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Tuition:</th>
+                          <td>$300.00/month</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Materials Fee:</th>
+                          <td>$225.00 ($250 if paid after May 15)</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Registration Fee</th>
+                          <td>
+                            $125.00 (per family).
+                            <br />
+                            Annual fee due with application. Non-refundable.
+                            <i>Early bird discount during certain times of year.</i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>
+                      <i>
+                        Additional fees for special programs, materials or field
+                        trips may be collected. Materials fees are due by June
+                        1st or upon acceptance. Some courses (such as drama,
+                        art, cooking) may require a special fee. Graduating
+                        seniors will be assessed a graduation fee
+                      </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--///// SECONDARY /////-->
+            <div class="card">
+              <div class="card-header" id="headingFive">
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                  >
+                    Secondary (Grades 7 - 12)
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  <div>
+                    <table class="table table-bordered table-sm">
+                      <thead>
+                        <tr>
+                          <th style="width: 20%"></th>
+                          <th scope="col">Full-Day</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Tuition:</th>
+                          <td>$350.00/month</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Materials Fee:</th>
+                          <td>$225.00 ($250 if paid after May 15)</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Registration Fee</th>
+                          <td>
+                            $125.00 (per family).
+                            <br />
+                            Annual fee due with application. Non-refundable.
+                            <i>Early bird discount during certain times of year.</i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p>
+                      <i>
+                        Additional fees for special programs, materials or field
+                        trips may be collected. Materials fees are due by June
+                        1st or upon acceptance. Some courses (such as drama,
+                        art, cooking) may require a special fee. Graduating
+                        seniors will be assessed a graduation fee
+                      </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <h2 id="discounts">Tuition Discounts</h2>
+        <div class="section-body">
+          <p>Discount for enrolling multiple children:</p>
+          <table class="table table-bordered table-sm">
+            <tbody>
+              <tr>
+                <td>Second child: 10%</td>
+                <td>Third child: 15%</td>
+                <td>Fourth<strong>+</strong>: 20%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>Discount for payment in full by August 1st:</p>
+          <span style="border: 1px solid #dee2e6; padding: 0.3rem"
+            >5% of total tuition</span
+          >
+        </div>
+        <br />
+        <h2 id="financialAssistance">Financial Assistance</h2>
+        <div class="section-body">
+          <p>
+            Information on financial assistance, part-time enrollment, and
+            payment policies is available upon request.
+            <a href="../Contact/index.html">Contact Us.</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <br />
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="d-flex">
+        <img
+          id="footer-image"
+          src="../images/school_logo_maroon.svg"
+          alt="cos logo"
+        />
+        <!-- About Us -->
+        <div class="footer-section">
+          <h4><a href="../About/index.html">About Us</a></h4>
+          <ul>
+            <li>
+              <a href="../About/index.html#staff">- Staff</a>
+            </li>
+            <li>
+              <a href="../About/index.html#mission">- Mission</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Tuition -->
+        <div class="footer-section">
+          <h4><a href="../Tuition/index.html">Tuition</a></h4>
+          <ul>
+            <li>
+              <a href="../Tuition/index.html#tuitionAndFees"
+                >- Tuition & Fees</a
+              >
+            </li>
+            <li>
+              <a href="../Tuition/index.html#discounts">- Tuition Discounts</a>
+            </li>
+            <li>
+              <a href="../Tuition/index.html#financialAssistance"
+                >- Financial Assistance</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Admissions -->
+        <div class="footer-section">
+          <h4>
+            <a href="../Admissions/index.html">Admissions</a>
+          </h4>
+          <ul>
+            <li>
+              <a href="../Admissions/enrollment_request.pdf" target="_blank">
+                - Enrollment Request Form (PDF)
+              </a>
+            </li>
+            <li>
+              <a href="../Admissions/enrollment_request.pdf" target="_blank">
+                - Enrollment Request Form (PDF)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div class="footer-section">
+          <h4><a href="../Resources/index.html">Resources</a></h4>
+          <ul>
+            <li>
+              <a href="../Resources/calendar_2022-2023.pdf" target="_blank">
+                - Calendar (PDF)
+              </a>
+            </li>
+
+            <li>
+              <a href="../Resources/COS_handbook_2016-2017.pdf" target="_blank">
+                - COS Handbook (PDF)
+              </a>
+            </li>
+
+            <li>
+              <a href="../Resources/supply_list_2023-2024.pdf" target="_blank">
+                - Supply List (PDF)
+              </a>
+            </li>
+            <li>
+              <a href="../Resources/tuition+fees_2023-2024.pdf" target="_blank">
+                - Tuition + Fees (PDF)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Contact Us -->
+        <div class="footer-section">
+          <h4><a href="../Contact/index.html">Contact</a></h4>
+          <ul>
+            <li>
+              4440 Outreach Drive <br />
+              Hillsboro,
+              <abbr title="Missouri">MO</abbr> 63050
+            </li>
+            <li>(636) 797-3466</li>
+            <li>christianoutreachschool@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts: -->
+    <script type="module" src="./index.js"></script>
+    <!-- bootstrap: -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

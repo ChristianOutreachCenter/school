@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+:root {
+    /** Color pallette **/
+    --school-color-primary: #531723;
+    --school-color-secondary: #ccd6d3;
+    --school-color-secondary-dark: #6a817a;
+    --gold: rgb(255, 255, 255);
+    --website-bg-dark: #531723;
+    --website-bg-light: #ccd6d3;
+    --website-text-dark: #0e1213;
+    --website-text-grey: #ccd6d3;
+    --website-text-light: rgb(236, 236, 236);
+    --info: rgb(39, 116, 180);
+    --alert: #dbc14e;
+    --success: #78c2ac;
+    --danger: #b4344e;
+    --footer-height: 220px;
+}
+
+@font-face {
+    font-family: 'centabel_bookcentabel_book';
+    src: url('centabel-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    /* background-color: rgb(236, 237, 238); */
+
+    /* background-image: url('./images/lighter.png'); */
+    background-image: url('./images/background\ pattern.png');
+    background-repeat: repeat;
+    box-shadow: inset 0px 0px 150px 50px rgb(255, 255, 255);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--school-color-primary);
+    font-family: 'centabel_bookcentabel_book', 'Times', 'Serif';
+}
+
+header {
+    background-color: var(--website-bg-dark);
+    display: inline-block;
+    width: 100%;
+}
+header h1 {
+    padding-top: 4px;
+    color: var(--gold);
+}
+#navbar {
+    background-color: var(--website-bg-dark);
+    color: var(--website-text-light);
+    border-bottom: 3px solid var(--school-color-secondary);
+}
+.text-muted {
+    color: var(--school-color-secondary-dark) !important;
+}
+.nav-link {
+    color: var(--website-text-grey);
+}
+.nav-link:hover {
+    color: var(--website-text-light);
+}
+
+#navbar-image {
+    height: 3rem;
+    margin: 0px 20px 0px 10px;
+}
+
+/* "Christian Outreach School"  =>  "C.O.C"  =>  ""
+-------------------------------------------------- */
+/* Hide short text by default (resolution > 1200px) */
+.short-text {
+    display: none;
+}
+/* When resolution <= 992, hide full text and show short text */
+@media (max-width: 680px) {
+    .short-text {
+        display: inline-block;
+    }
+    .full-text {
+        display: none;
+    }
+}
+
+/* When resolution <= 257, hide text */
+@media (max-width: 257px) {
+    .short-text {
+        display: none;
+    }
+    .full-text {
+        display: none;
+    }
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    margin-bottom: var(--footer-height); /* Margin bottom by footer height */
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer-height); /* Set the fixed height of the footer here */
+
+    /* line-height: 60px; Vertically c */
+    background-color: var(--website-bg-dark);
+    border-top: 3px solid var(--school-color-secondary);
+    padding: 1.5rem;
+    color: var(--website-text-light);
+}
+.footer h4 {
+    color: var(--gold);
+}
+.footer li {
+    font-size: 0.8rem;
+}
+.footer a {
+    color: inherit;
+}
+.footer-section {
+    margin: 0px 0.5rem 0px 0.5rem;
+    min-width: 120px;
+}
+.footer ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+#footer-image {
+    height: 10.5rem;
+    margin: 0px 20px 0px 10px;
+}
+li {
+    padding-left: 0px;
+}
+
+@media only screen and (max-width: 1050px) {
+    #footer-image {
+        height: 5rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #footer-image {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .footer div {
+        flex-direction: column;
+    }
+    :root {
+        --footer-height: 800px;
+    }
+    #footer-image {
+        display: block;
+    }
+}
+
+section {
+    color: var(--website-text-dark);
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 1px 0px 50px rgb(230, 230, 230);
+}
+
+main {
+    margin: 20px;
+    /* background-color: rgba(255, 255, 255, 0.493); */
+}
+
+img {
+    max-width: 100%;
+}
+
+a,
+.btn-link {
+    color: var(--info);
+}
+
+.button {
+    background-color: var(--school-color-primary);
+    color: white;
+}
+.button:hover {
+    background-color: #41141d;
+    color: white;
+}
+.video {
+    height: 450px;
+    width: 800px;
+}
+
+@media only screen and (max-width: 690px) {
+    .welcome-caption {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .welcome-caption {
+        font-size: 0.6rem;
+    }
+    .video {
+        height: 225px;
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 461px) {
+    .welcome-caption {
+        font-size: 0.4rem;
+    }
+    .video {
+        height: 200px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 351px) {
+    .welcome-caption {
+        font-size: 0.2rem;
+    }
+    .video {
+        height: 150px;
+        width: 250px;
+    }
+}

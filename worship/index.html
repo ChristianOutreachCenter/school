@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <!-- page styles -->
+    <link rel="stylesheet" type="text/css" href="./global-styles.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <a href="/">
+          <img
+            id="navbar-image"
+            src="./images/maroonsheild-svg.svg"
+            alt="cos logo"
+          />
+        </a>
+        <h1>
+          <span class="full-text">Christian Outreach School</span>
+          <span class="short-text">C.O.S</span>
+        </h1>
+        <button
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Admissions/index.html">
+                Admissions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Tuition/index.html">Tuition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Resources/index.html"> Resources </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact/index.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About/index.html"> About Us </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- McDev's CUSTOM VERSION OF BOOTSTRAP 4 CAROUSEL: -->
+    <div class="welcome-div-parent">
+      <div class="welcome-div">
+        <img
+          class="welcome-img"
+          src="./images/webbanner5.jpg"
+          alt="Welcome To Christian Outreach School!"
+        />
+        <div class="welcome-caption">
+          <h1>Welcome To Christian Outreach School!</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Begin page content -->
+    <main role="main" class="container">
+      <section class="container">
+        <div class="row">
+          <div class="col-sm p-4">
+            <h2>Family Atmosphere</h2>
+            <p>
+              School Faculty and Students share their experiences and
+              perspectives on the School's atmosphere.
+            </p>
+          </div>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/r1E_Vvwk_6k"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col-sm order-1 order-xl-2 p-4">
+            <h2>Is It Worth It?</h2>
+            <p>
+              Parents of Alumni and Students share the impact they saw the
+              school have on their children's life and why they believe the
+              school is a worthy investment.
+            </p>
+          </div>
+          <iframe
+            class="order-2 order-xl-1 video"
+            src="https://www.youtube.com/embed/wS5dj6Vh2yY"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col-sm p-4">
+            <h2>Is Education Neutral?</h2>
+            <p>
+              Is education neutral? Can a school, or an education system avoid
+              bias towards belief?
+            </p>
+          </div>
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/1-dzM9w-gsw"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="text-center p-3">
+        <h2>Interested in enrolling?</h2>
+        <p>Visit our admissions page to get started!</p>
+        <a
+          class="btn button btn-lg"
+          role="button"
+          aria-pressed="true"
+          href="./Admissions/index.html"
+          >Admissions</a
+        >
+      </section>
+      <br />
+      <br />
+
+      <!-- <p>
+                Use
+                <a href="../sticky-footer-navbar/"
+                    >the sticky footer with a fixed navbar</a
+                >
+                if need be, too.
+            </p> -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="d-flex">
+        <img
+          id="footer-image"
+          src="./images/school_logo_maroon.svg"
+          alt="cos logo"
+        />
+        <!-- About Us -->
+        <div class="footer-section">
+          <h4><a href="./About/index.html">About Us</a></h4>
+          <ul>
+            <li>
+              <a href="./About/index.html#staff">- Staff</a>
+            </li>
+            <li>
+              <a href="./About/index.html#mission">- Mission</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Tuition -->
+        <div class="footer-section">
+          <h4><a href="./Tuition/index.html">Tuition</a></h4>
+          <ul>
+            <li>
+              <a href="./Tuition/index.html#tuitionAndFees">- Tuition & Fees</a>
+            </li>
+            <li>
+              <a href="./Tuition/index.html#discounts">- Tuition Discounts</a>
+            </li>
+            <li>
+              <a href="./Tuition/index.html#financialAssistance"
+                >- Financial Assistance</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Admissions -->
+        <div class="footer-section">
+          <h4>
+            <a href="./Admissions/index.html">Admissions</a>
+          </h4>
+          <ul>
+            <li>
+              <a href="./Admissions/enrollment_request.pdf" target="_blank">
+                - Enrollment Request Form (PDF)
+              </a>
+            </li>
+            <li>
+              <a href="./Admissions/enrollment_request.pdf" target="_blank">
+                - Enrollment Request Form (PDF)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Resources -->
+        <div class="footer-section">
+          <h4><a href="./Resources/index.html">Resources</a></h4>
+          <ul>
+            <li>
+              <a href="./Resources/calendar_2023-2024.pdf" target="_blank">
+                - Calendar (PDF)
+              </a>
+            </li>
+
+            <li>
+              <a href="./Resources/COS_handbook_2016-2017.pdf" target="_blank">
+                - COS Handbook (PDF)
+              </a>
+            </li>
+
+            <li>
+              <a href="./Resources/supply_list_2023-2024.pdf" target="_blank">
+                - Supply List (PDF)
+              </a>
+            </li>
+            <li>
+              <a href="./Resources/tuition+fees_2023-2024.pdf" target="_blank">
+                - Tuition + Fees (PDF)
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Contact Us -->
+        <div class="footer-section">
+          <h4><a href="./Contact/index.html">Contact</a></h4>
+          <ul>
+            <li>
+              4440 Outreach Drive <br />
+              Hillsboro,
+              <abbr title="Missouri">MO</abbr> 63050
+            </li>
+            <li>(636) 797-3466</li>
+            <li>christianoutreachschool@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts: -->
+    <script type="module" src="./index.js"></script>
+    <!-- bootstrap: -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

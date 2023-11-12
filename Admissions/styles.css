@@ -1,0 +1,21 @@
+/** admissions page specific styles **/
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'centabel_bookcentabel_book', 'Times', 'Serif';
+}
+
+.section-body {
+    padding: 1em;
+}
+
+section {
+    padding: 1em;
+}

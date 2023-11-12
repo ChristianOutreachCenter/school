@@ -1,0 +1,141 @@
+/** style guide page specific styles **/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+:root {
+    /** Color pallette **/
+    --school-color-primary: #531723;
+    --school-color-secondary: #ccd6d3;
+    --school-color-black: #0e1213;
+    --school-color-white: #ffffff;
+    --school-color-info: #2774b4;
+    --school-color-alert: #dbc14e;
+    --school-color-success: #78c2ac;
+    --school-color-warning: #b4344e;
+    --not-cannon-black: #2d3331;
+}
+
+@font-face {
+    font-family: 'centabel_bookcentabel_book';
+    src: url('centabel-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.centabel {
+    font-family: 'centabel_bookcentabel_book', 'Times', 'Serif';
+}
+.firasans {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+body {
+    background-color: var(--school-color-white);
+    background-image: url('./background\ pattern.png');
+    background-repeat: repeat;
+    color: var(--school-color-black);
+    box-shadow: inset 0px 0px 150px 50px rgb(255, 255, 255);
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+main {
+    background-color: var(--school-color-white);
+    box-shadow: 0px 0px 70px 10px #eeeeee;
+    margin: 20px;
+}
+h1,
+h2 {
+    font-family: 'centabel_bookcentabel_book', 'Times', 'Serif';
+}
+h2 {
+    font-weight: bold;
+    color: var(--school-color-primary);
+}
+h3 {
+    color: var(--not-cannon-black);
+}
+header {
+    background-color: var(--school-color-primary);
+    width: 100%;
+    text-align: center;
+}
+
+section {
+    margin-top: 50px;
+    padding: 20px 20px 10px 20px;
+}
+#navbar {
+    background-color: var(--school-color-primary);
+    color: var(--school-color-white);
+    border-bottom: 5px solid var(--school-color-secondary);
+    text-align: center;
+}
+
+.square-image {
+    width: 175px;
+}
+
+.rectangle-image {
+    width: 100%;
+}
+
+.color {
+    /* width: 175px; */
+    height: 175px;
+    width: 100%;
+    /* margin-right: 5%;
+    margin-left: 5%; */
+    border-radius: 2px;
+}
+
+.primary {
+    background-color: var(--school-color-primary);
+    color: var(--school-color-white);
+}
+
+.secondary {
+    background-color: var(--school-color-secondary);
+    color: var(--school-color-black);
+}
+
+.black {
+    background-color: var(--school-color-black);
+    color: var(--school-color-white);
+}
+
+.white {
+    background-color: var(--school-color-white);
+    color: var(--school-color-black);
+    border-style: inset;
+    border-color: var(--school-color-black);
+}
+
+.info {
+    background-color: var(--school-color-info);
+    color: var(--school-color-white);
+}
+
+.alert {
+    background-color: var(--school-color-alert);
+    color: var(--school-color-black);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.warning {
+    background-color: var(--school-color-warning);
+    color: var(--school-color-white);
+}
+
+.success {
+    background-color: var(--school-color-success);
+    color: var(--school-color-white);
+}
+
+.tertiary {
+    height: 25px;
+    width: 75px;
+}
+
+#font-image {
+    max-width: 80%;
+}
