@@ -212,7 +212,7 @@ a,
 
 .post-image {
     max-height: 450px;
-    max-width: 800px;
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 690px) {
